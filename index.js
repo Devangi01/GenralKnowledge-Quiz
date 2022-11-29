@@ -10,10 +10,35 @@ var userName = readlineSync.question("what is Your name? \n");
 log(info("welcome " + userName));
 
 var questionArray = [
-  {
-    question: "The language spoken by the people by Pakistan is ?",
-    options: ["Hindi", "Palauan", "Sindhi", "Nauruan"],
+    {
+    question: "Who is the Father of our Nation?",
+    options: ["Mahatma Gandhi", "Dr.B.R.Ambedkar", "Jawaharlal Nehru", "Charles Babbage"],
+    answer: 1
+  },
+    {
+    question: "Gir National Park in Gujarat is famous for?",
+    options: ["Deer", "Tiger", "Lion", "Camel"],
+    answer: 3
+  },
+     {
+    question: "Fastest animal on earth is?",
+    options: ["Deer", "Cheetah", "Lion", "Rabbit"],
     answer: 2
+  },
+  {
+    question: " A figure with 8 sides is called?",
+    options: ["Triangle", "Rectangle", "Hexagon", "Octagon"],
+    answer: 4
+  },
+    {
+    question: " What colour symbolises peace?",
+    options: ["Black", "White", "Red", "Blue"],
+    answer: 2
+  },
+  {
+    question: " How many players are there in a cricket team ?",
+    options: ["11", "12", "15", "9"],
+    answer: 1
   },
   {
     question: "What is the state flower of Haryana?",
@@ -31,9 +56,9 @@ var questionArray = [
     answer: 0
   },
   {
-    question: "Which is the largest coffee producing state of India?",
-    options: ["Kerala", "Tamil Nadu", "Karnataka", "Arunachal Pradesh"],
-    answer: 2
+    question: "Largest desert in the world is?",
+    options: ["Sahara desert", "Kutch desert", "Karnataka desert", "Arunachal desert"],
+    answer: 1
   }
 ];
 
