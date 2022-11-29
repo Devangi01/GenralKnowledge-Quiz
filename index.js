@@ -12,33 +12,33 @@ log(info("welcome " + userName));
 var questionArray = [
     {
     question: "Who is the Father of our Nation?",
-    options: ["Mahatma Gandhi", "Dr.B.R.Ambedkar", "Jawaharlal Nehru", "Charles Babbage"],
-    answer: 1
+    options: ["Jawaharlal Nehru", "Dr.B.R.Ambedkar", "Mahatma Gandhi","Charles Babbage"],
+    answer: 2
   },
     {
     question: "Gir National Park in Gujarat is famous for?",
-    options: ["Deer", "Tiger", "Lion", "Camel"],
+    options: ["Deer", "Tiger", "Camel", "Lion"],
     answer: 3
   },
      {
     question: "Fastest animal on earth is?",
-    options: ["Deer", "Cheetah", "Lion", "Rabbit"],
+    options: ["Deer", "Lion", "Cheetah", "Rabbit"],
     answer: 2
   },
   {
     question: " A figure with 8 sides is called?",
-    options: ["Triangle", "Rectangle", "Hexagon", "Octagon"],
-    answer: 4
+    options: ["square", "Octagon", "Hexagon", "Petagon"],
+    answer: 1
   },
     {
     question: " What colour symbolises peace?",
     options: ["Black", "White", "Red", "Blue"],
-    answer: 2
+    answer: 1
   },
   {
     question: " How many players are there in a cricket team ?",
     options: ["11", "12", "15", "9"],
-    answer: 1
+    answer: 0
   },
   {
     question: "What is the state flower of Haryana?",
@@ -57,8 +57,8 @@ var questionArray = [
   },
   {
     question: "Largest desert in the world is?",
-    options: ["Sahara desert", "Kutch desert", "Karnataka desert", "Arunachal desert"],
-    answer: 1
+    options: ["Sasan desert", "Kutch desert", "Karnataka desert", "Sahara desert"],
+    answer: 0
   }
 ];
 
